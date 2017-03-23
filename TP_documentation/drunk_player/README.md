@@ -18,8 +18,11 @@ Drunk_player est composé :
 ## Compilation
 
 `mkdir build` 
-`cd build` 
+
+`cd build`
+ 
 `cmake` 
+
 `make` 
 
 
