@@ -24,6 +24,6 @@ make
 ```
 ## Images
 
-![drunk_player_gui.png]
+![](drunk_player_gui.png)
 
 [google] [http://www.google.com]
