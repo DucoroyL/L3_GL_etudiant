@@ -1,0 +1,68 @@
+\hypertarget{classRandom}{}\section{Random Class Reference}
+\label{classRandom}\index{Random@{Random}}
+
+
+{\ttfamily \#include $<$Random.\+hpp$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classRandom_acb76b49c3903a3c4fb67fd216341f08d}{Random} ()
+\begin{DoxyCompactList}\small\item\em Constructeur à utiliser. \end{DoxyCompactList}\item 
+\hyperlink{classRandom_a9bfadeaa4adc5ac44142d000b1c99441}{Random} (const \hyperlink{classRandom}{Random} \&)=delete
+\item 
+double \hyperlink{classRandom_aa0277ecffaf7d920b8ebd2399214f113}{operator()} ()
+\begin{DoxyCompactList}\small\item\em Génère un nombre aléatoire réel dans \mbox{[}0,1). \end{DoxyCompactList}\item 
+int \hyperlink{classRandom_a20265a86364664d85253931dc4685fa3}{operator()} (int n)
+\begin{DoxyCompactList}\small\item\em Génère un nombre aléatoire entier dans \mbox{[}0,n). \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Générateur de nombre pseudo-\/aléatoire (selon la loi uniforme). Exemple d\textquotesingle{}utilisation \+: \hyperlink{classRandom}{Random} rng; int x = rng(42); double y = rng(); 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classRandom_acb76b49c3903a3c4fb67fd216341f08d}\label{classRandom_acb76b49c3903a3c4fb67fd216341f08d}} 
+\index{Random@{Random}!Random@{Random}}
+\index{Random@{Random}!Random@{Random}}
+\subsubsection{\texorpdfstring{Random()}{Random()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Random\+::\+Random (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructeur à utiliser. 
+
+\mbox{\Hypertarget{classRandom_a9bfadeaa4adc5ac44142d000b1c99441}\label{classRandom_a9bfadeaa4adc5ac44142d000b1c99441}} 
+\index{Random@{Random}!Random@{Random}}
+\index{Random@{Random}!Random@{Random}}
+\subsubsection{\texorpdfstring{Random()}{Random()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Random\+::\+Random (\begin{DoxyParamCaption}\item[{const \hyperlink{classRandom}{Random} \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+Constructeur par copie interdit. Pour éviter les suites pseudo-\/aléatoires identiques. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classRandom_aa0277ecffaf7d920b8ebd2399214f113}\label{classRandom_aa0277ecffaf7d920b8ebd2399214f113}} 
+\index{Random@{Random}!operator()@{operator()}}
+\index{operator()@{operator()}!Random@{Random}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily double Random\+::operator() (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Génère un nombre aléatoire réel dans \mbox{[}0,1). 
+
+\mbox{\Hypertarget{classRandom_a20265a86364664d85253931dc4685fa3}\label{classRandom_a20265a86364664d85253931dc4685fa3}} 
+\index{Random@{Random}!operator()@{operator()}}
+\index{operator()@{operator()}!Random@{Random}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily int Random\+::operator() (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Génère un nombre aléatoire entier dans \mbox{[}0,n). 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/ducoroy/\+Documents/\+Licence3\+\_\+\+Info/\+Genie\+\_\+\+Logiciel/\+L3\+\_\+\+G\+L\+\_\+etudiant/\+T\+P\+\_\+documentation/drunk\+\_\+player/src/drunk\+\_\+player/\hyperlink{Random_8hpp}{Random.\+hpp}\item 
+/home/ducoroy/\+Documents/\+Licence3\+\_\+\+Info/\+Genie\+\_\+\+Logiciel/\+L3\+\_\+\+G\+L\+\_\+etudiant/\+T\+P\+\_\+documentation/drunk\+\_\+player/src/drunk\+\_\+player/\hyperlink{Random_8cpp}{Random.\+cpp}\end{DoxyCompactItemize}

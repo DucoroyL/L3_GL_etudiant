@@ -1,0 +1,108 @@
+\hypertarget{classDrunkPlayer}{}\section{Drunk\+Player Class Reference}
+\label{classDrunkPlayer}\index{Drunk\+Player@{Drunk\+Player}}
+
+
+Lecteur vidéo qui lit des vidéos par morceaux désordonnés et transformés.  
+
+
+
+
+{\ttfamily \#include $<$Player.\+hpp$>$}
+
+
+
+Inheritance diagram for Drunk\+Player\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=161pt]{classDrunkPlayer__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Drunk\+Player\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=161pt]{classDrunkPlayer__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classDrunkPlayer_a39c64a774a19456f3a4c194ec5e1131f}{Drunk\+Player} ()
+\begin{DoxyCompactList}\small\item\em Constructeur. \end{DoxyCompactList}\item 
+void \hyperlink{classDrunkPlayer_a235e60ea8a97c4d26277b066c2cebe80}{load\+Folder} (const std\+::string \&folder\+Name) override
+\begin{DoxyCompactList}\small\item\em Lit tous les fichiers d\textquotesingle{}un dossier. \end{DoxyCompactList}\item 
+bool \hyperlink{classDrunkPlayer_a9c032dda7df01fafc757fb1f4e265bb4}{is\+Finished} () const override
+\begin{DoxyCompactList}\small\item\em Retourne si toutes les vidéos ont été lues entièrement. \end{DoxyCompactList}\item 
+void \hyperlink{classDrunkPlayer_a2662f5010e15c95ca6639f56f012aed1}{operator$>$$>$} (cv\+::\+Mat \&image) override
+\begin{DoxyCompactList}\small\item\em Lit une image du flux vidéo. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Lecteur vidéo qui lit des vidéos par morceaux désordonnés et transformés. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classDrunkPlayer_a39c64a774a19456f3a4c194ec5e1131f}\label{classDrunkPlayer_a39c64a774a19456f3a4c194ec5e1131f}} 
+\index{Drunk\+Player@{Drunk\+Player}!Drunk\+Player@{Drunk\+Player}}
+\index{Drunk\+Player@{Drunk\+Player}!Drunk\+Player@{Drunk\+Player}}
+\subsubsection{\texorpdfstring{Drunk\+Player()}{DrunkPlayer()}}
+{\footnotesize\ttfamily Drunk\+Player\+::\+Drunk\+Player (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructeur. 
+
+\hyperlink{classDrunkPlayer}{Drunk\+Player}. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classDrunkPlayer_a9c032dda7df01fafc757fb1f4e265bb4}\label{classDrunkPlayer_a9c032dda7df01fafc757fb1f4e265bb4}} 
+\index{Drunk\+Player@{Drunk\+Player}!is\+Finished@{is\+Finished}}
+\index{is\+Finished@{is\+Finished}!Drunk\+Player@{Drunk\+Player}}
+\subsubsection{\texorpdfstring{is\+Finished()}{isFinished()}}
+{\footnotesize\ttfamily bool Drunk\+Player\+::is\+Finished (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Retourne si toutes les vidéos ont été lues entièrement. 
+
+
+
+Implements \hyperlink{classAbstractPlayer_a841896a599ebe6b8317905de78c44bcc}{Abstract\+Player}.
+
+\mbox{\Hypertarget{classDrunkPlayer_a235e60ea8a97c4d26277b066c2cebe80}\label{classDrunkPlayer_a235e60ea8a97c4d26277b066c2cebe80}} 
+\index{Drunk\+Player@{Drunk\+Player}!load\+Folder@{load\+Folder}}
+\index{load\+Folder@{load\+Folder}!Drunk\+Player@{Drunk\+Player}}
+\subsubsection{\texorpdfstring{load\+Folder()}{loadFolder()}}
+{\footnotesize\ttfamily void Drunk\+Player\+::load\+Folder (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{folder\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Lit tous les fichiers d\textquotesingle{}un dossier. 
+
+
+
+Reimplemented from \hyperlink{classAbstractPlayer_a2091b1757bfd13116dfa4612af55473b}{Abstract\+Player}.
+
+\mbox{\Hypertarget{classDrunkPlayer_a2662f5010e15c95ca6639f56f012aed1}\label{classDrunkPlayer_a2662f5010e15c95ca6639f56f012aed1}} 
+\index{Drunk\+Player@{Drunk\+Player}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Drunk\+Player@{Drunk\+Player}}
+\subsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}}
+{\footnotesize\ttfamily void Drunk\+Player\+::operator$>$$>$ (\begin{DoxyParamCaption}\item[{cv\+::\+Mat \&}]{image }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Lit une image du flux vidéo. 
+
+
+
+Implements \hyperlink{classAbstractPlayer_a5c9a863c96224dd297aa44c69010cd94}{Abstract\+Player}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/ducoroy/\+Documents/\+Licence3\+\_\+\+Info/\+Genie\+\_\+\+Logiciel/\+L3\+\_\+\+G\+L\+\_\+etudiant/\+T\+P\+\_\+documentation/drunk\+\_\+player/src/drunk\+\_\+player/\hyperlink{Player_8hpp}{Player.\+hpp}\item 
+/home/ducoroy/\+Documents/\+Licence3\+\_\+\+Info/\+Genie\+\_\+\+Logiciel/\+L3\+\_\+\+G\+L\+\_\+etudiant/\+T\+P\+\_\+documentation/drunk\+\_\+player/src/drunk\+\_\+player/\hyperlink{Player_8cpp}{Player.\+cpp}\end{DoxyCompactItemize}
