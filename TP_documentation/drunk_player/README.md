@@ -26,4 +26,4 @@ make
 
 ![](drunk_player_gui.png)
 
-[google] (http://www.google.com)
+[google](http://www.google.com)
