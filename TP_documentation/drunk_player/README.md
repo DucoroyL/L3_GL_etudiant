@@ -6,23 +6,24 @@ Drunk_player est un système de lecture de vidéos qui a trop bu. Il lit les vid
 
 Drunk_player est composé :
 
-* d'une bibliothèque (drunk_player) contenant le code de base
-* d'un programme graphique (drunk_player_gui) qui affiche le résultat à l'écran
-* d'un programme console (drunk_player_cli) qui sort le résultat dans un fichier
+- d'une bibliothèque (drunk_player) contenant le code de base
+- d'un programme graphique (drunk_player_gui) qui affiche le résultat à l'écran
+- d'un programme console (drunk_player_cli) qui sort le résultat dans un fichier
 
 ## Dépendances
 
-* OpenCV
-* Boost
+- OpenCV
+- Boost
  
 ## Compilation
+```
+mkdir build
+cd build
+cmake 
+make
+```
+## Images
 
-`mkdir build` 
+![drunk_player_gui.png]
 
-`cd build`
- 
-`cmake` 
-
-`make` 
-
-
+[google] [http://www.google.com]
